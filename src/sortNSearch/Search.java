@@ -1,6 +1,5 @@
 package sortNSearch;
 
-import org.jetbrains.annotations.NotNull;
 
 public class Search {
 
@@ -11,7 +10,7 @@ public class Search {
 
     // recursive binary search
 
-    public static int binaryRecursive(int @NotNull [] arr, int key, int low, int high) {
+    public static int binaryRecursive(int [] arr, int key, int low, int high) {
         int mid = low + (high - low) / 2;
 
         // base case - key doesn't exist
